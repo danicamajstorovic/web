@@ -1,0 +1,47 @@
+﻿body {
+    background-color: violet;
+    font-family: Dubai;
+    font-size: 26px;
+}
+
+form {
+    height: 520px;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 40px 25px;
+}
+
+.login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+.button {
+    background-color: grey;
+    color: white;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
